@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+.vscode/
+*.code-workspace
+*.cfg
+bin/
+lib/
