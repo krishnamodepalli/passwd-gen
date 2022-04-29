@@ -13,5 +13,5 @@ def generator(length):
         passwd += rn.choice(total)
     return passwd
 
-
-print(generator(16))
+if __name__ =="__main__":
+    print(generator(16))
