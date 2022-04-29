@@ -13,5 +13,5 @@ def generator(length):
         passwd += rn.choice(total)
     return passwd
 
-print("Hello World!")
+
 print(generator(16))
