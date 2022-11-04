@@ -1,4 +1,4 @@
-import random2 as rn
+import random as rn
 
 letters = 'abcdefghijklmnopqrstuvwxyz'
 nums = '0123456789'
@@ -13,5 +13,6 @@ def generator(length):
         passwd += rn.choice(total)
     return passwd
 
-if __name__ =="__main__":
+
+if __name__ == "__main__":
     print(generator(16))
